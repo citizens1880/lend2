@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+} 
+
+.head {
+    background: url('images./hero.png');
+    width: 1348px;
+    height: 769px;
+}    
+
+.logo {
+    background: url('images./logo.png');
+    width: 230px;
+    height: 62px;
+    left: 170px; 
+    top: 46px;
+    position: absolute;
+}
+
+nav {
+    float: right;
+    margin-top: 72px;
+    margin-right: 167px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 39px;
+}
+
+.menu a {
+    color:  #ffffff;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 100;
+}
+
